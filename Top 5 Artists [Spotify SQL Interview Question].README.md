@@ -9,7 +9,7 @@ JOIN global_song_rank gsr ON s.song_id = gsr.song_id
 WHERE gsr.rank <= 10
 GROUP BY a.artist_name
 ORDER BY rank ASC
-LIMIT 6;
+LIMIT 6
 ```
 
 Output;
