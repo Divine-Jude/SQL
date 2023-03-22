@@ -16,12 +16,12 @@ LIMIT 6;
 Output;
 	|artist_name | rank |
 	| :---:      | :---:| 
-	| Bad Bunny   |   1  |
-  	| Ed Sheeran  |   2  |
-	| Adele		 |	 3  |
-	| Lady Gaga	 |	 3  |
-	| Katy Perry  |	 4  |
-    | Drake		 |	 5  |
+	| Bad Bunny  |   1  |
+  	| Ed Sheeran |   2  |
+	| Adele	     |	 3  |
+	| Lady Gaga  |	 3  |
+	| Katy Perry |	 4  |
+        | Drake	     |	 5  |
 
 
 --Output show's ths top 5 artist names in ascending order along with their song appearances ranking 
