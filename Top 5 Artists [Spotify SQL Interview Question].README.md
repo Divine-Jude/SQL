@@ -1,5 +1,4 @@
--- Write a query to determine the top 5 artists whose songs appear in the 
--- Top 10 of the global_song_rank table the highest number of times.
+-- Write a query to determine the top 5 artists whose songs appear in the Top 10 of the global_song_rank table the highest number of times.
 
 ```sql
 SELECT a.artist_name,
@@ -21,7 +20,7 @@ Output;
 	| Adele	     |	 3  |
 	| Lady Gaga  |	 3  |
 	| Katy Perry |	 4  |
-        | Drake	     |	 5  |
+    | Drake	     |	 5  |
 
 
 --Output show's ths top 5 artist names in ascending order along with their song appearances ranking 
