@@ -1,7 +1,7 @@
 -- Write a query to determine the top 5 artists whose songs appear in the 
 -- Top 10 of the global_song_rank table the highest number of times.
 
-
+```
 SELECT a.artist_name,
   DENSE_RANK() OVER (ORDER BY COUNT(*) DESC) as rank
 FROM artists a
@@ -11,7 +11,7 @@ WHERE gsr.rank <= 10
 GROUP BY a.artist_name
 ORDER BY rank ASC
 LIMIT 6;
-
+```
 
 Output;
 	|artist_name | rank |
